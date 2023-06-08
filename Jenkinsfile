@@ -4,7 +4,7 @@ pipeline {
         //once you sign up for Docker hub, use that user_id here
         registry = "anishrajwani/docker-java"
         //- update your credentials ID after creating credentials for connecting to Docker Hub
-        registryCredential = 'docker_'
+        registryCredential = 'dockerid'
         dockerImage = ''
     }
     
