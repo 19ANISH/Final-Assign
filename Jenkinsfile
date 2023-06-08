@@ -2,9 +2,9 @@ pipeline {
     agent any 
     environment {
         //once you sign up for Docker hub, use that user_id here
-        registry = "zikra/hello-docker-java"
+        registry = "anishrajwani/docker-java"
         //- update your credentials ID after creating credentials for connecting to Docker Hub
-        registryCredential = 'dockerid'
+        registryCredential = 'docker'
         dockerImage = ''
     }
     
